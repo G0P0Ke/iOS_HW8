@@ -13,6 +13,7 @@
 		6AE8185D27EA4F8C00040090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8185C27EA4F8C00040090 /* Assets.xcassets */; };
 		6AE8186027EA4F8C00040090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8185E27EA4F8C00040090 /* LaunchScreen.storyboard */; };
 		6AE8186A27EA52F700040090 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8186927EA52F700040090 /* MovieView.swift */; };
+		6AE8186D27EA632100040090 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8186C27EA632100040090 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6AE8185F27EA4F8C00040090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AE8186127EA4F8C00040090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE8186927EA52F700040090 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		6AE8186C27EA632100040090 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6AE8185227EA4F8A00040090 /* aaandreev_4PW8 */ = {
 			isa = PBXGroup;
 			children = (
+				6AE8186B27EA631000040090 /* Model */,
 				6AE8186827EA52DF00040090 /* View */,
 				6AE8186727EA516400040090 /* Controllers */,
 				6AE8185327EA4F8A00040090 /* AppDelegate.swift */,
@@ -81,6 +84,14 @@
 				6AE8186927EA52F700040090 /* MovieView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6AE8186B27EA631000040090 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8186C27EA632100040090 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				6AE8186A27EA52F700040090 /* MovieView.swift in Sources */,
 				6AE8185427EA4F8A00040090 /* AppDelegate.swift in Sources */,
 				6AE8185627EA4F8A00040090 /* SceneDelegate.swift in Sources */,
+				6AE8186D27EA632100040090 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
